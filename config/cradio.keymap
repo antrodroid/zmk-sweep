@@ -194,6 +194,11 @@
             key-positions = <22 23 21>;
         };
 
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2 3>;
+        };
+
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflowleft_eckig_klammer {};
     };
