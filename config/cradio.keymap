@@ -156,7 +156,7 @@
 
         questionmark {
             bindings = <&kp LS(MINUS)>;
-            key-positions = <1 2>;
+            key-positions = <8 9>;
         };
 
         quotation {
@@ -197,6 +197,11 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <1 2 3>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <29 28>;
         };
 
         // left index & middle fingers (home-row)
