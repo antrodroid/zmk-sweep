@@ -134,11 +134,6 @@
             key-positions = <0 1>;
         };
 
-        underscore {
-            bindings = <&kp LS(MINUS)>;
-            key-positions = <28 29>;
-        };
-
         windows {
             bindings = <&kp LEFT_WIN>;
             key-positions = <20 21>;
@@ -202,6 +197,11 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <29 28>;
+        };
+
+        at-zeichen {
+            bindings = <&kp AT>;
+            key-positions = <2 7>;
         };
 
         // left index & middle fingers (home-row)
